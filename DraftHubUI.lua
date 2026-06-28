@@ -14453,11 +14453,11 @@ J=true
 
 aw:Dialog{
 
-Title="Close Window",
-Content="Do you want to close this window? You will not be able to open it again.",
+Title="关闭DraftHub",
+Content="你真的要关闭DraftHub吗,这将无法再次打开它",
 Buttons={
 {
-Title="Cancel",
+Title="取消",
 
 Callback=function()
 J=false
@@ -14465,7 +14465,7 @@ end,
 Variant="Secondary",
 },
 {
-Title="Close Window",
+Title="关闭",
 
 Callback=function()
 J=false
